@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Don't Touch My Balls!</title>   
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+
+
+
+
+<script>
+  const socket = io('http://localhost:3000');
+
+  socket.on('connect', () => {
+    console.log('Connected to server');
+  });
+
+  socket.on('message', (data) => {
+    console.log('Message from server:', data);
+  });
+
+  socket.on('disconnect', () => {
+    console.log('Disconnected from server');
+  });
+  </script>
+
+<body>
+  <h1>Don't Touch My Balls!</h1>
+  <p>Open the console to see messages from the server.</p>
+  <script src="client.js"></script> 
+</body>
+</html>

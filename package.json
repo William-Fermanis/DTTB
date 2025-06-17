@@ -1,0 +1,26 @@
+{
+  "name": "dtmb",
+  "version": "1.0.0",
+  "description": "Dont Touch My Balls",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/William-Fermanis/DTMB.git"
+  },
+  "keywords": [
+    "dtmb"
+  ],
+  "author": "WTF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/William-Fermanis/DTMB/issues"
+  },
+  "homepage": "https://github.com/William-Fermanis/DTMB#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
