@@ -1,5 +1,5 @@
-# DTMB
-Don't Touch My Balls is a Multiplayer game inspired by a trampoline classic "Don't touch the ball".
+# DTTB
+Don't Touch The Ball is a Multiplayer game inspired by a trampoline classic "Don't touch the ball".
 
 # Aim
 The aim of the game is to be the last one alive or survive as long as possible by not touching the ball
